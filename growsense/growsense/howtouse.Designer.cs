@@ -1,9 +1,7 @@
 ﻿namespace TrainerBase
 {
-	// Token: 0x02000006 RID: 6
 	public partial class howtouse : global::System.Windows.Forms.Form
 	{
-		// Token: 0x060000A5 RID: 165 RVA: 0x000188F0 File Offset: 0x00016AF0
 		protected override void Dispose(bool disposing)
 		{
 			bool flag = disposing && this.components != null;
@@ -14,7 +12,6 @@
 			base.Dispose(disposing);
 		}
 
-		// Token: 0x060000A6 RID: 166 RVA: 0x00018928 File Offset: 0x00016B28
 		private void InitializeComponent()
 		{
 			this.components = new global::System.ComponentModel.Container();
@@ -103,34 +100,24 @@
 			base.PerformLayout();
 		}
 
-		// Token: 0x040001AC RID: 428
 		private global::System.ComponentModel.IContainer components = null;
 
-		// Token: 0x040001AD RID: 429
 		private global::System.Windows.Forms.Label label1;
 
-		// Token: 0x040001AE RID: 430
 		private global::System.Windows.Forms.Label label2;
 
-		// Token: 0x040001AF RID: 431
 		private global::System.Windows.Forms.Label label3;
 
-		// Token: 0x040001B0 RID: 432
 		private global::System.Windows.Forms.Label label4;
 
-		// Token: 0x040001B1 RID: 433
 		private global::Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
 
-		// Token: 0x040001B2 RID: 434
 		private global::System.Windows.Forms.Label label5;
 
-		// Token: 0x040001B3 RID: 435
 		private global::System.Windows.Forms.Label label6;
 
-		// Token: 0x040001B4 RID: 436
 		private global::Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
 
-		// Token: 0x040001B5 RID: 437
 		private global::Bunifu.Framework.UI.BunifuDragControl bunifuDragControl3;
 	}
 }
