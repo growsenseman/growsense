@@ -16,14 +16,11 @@ using Microsoft.Win32;
 
 namespace TrainerBase
 {
-	// Token: 0x02000005 RID: 5
 	public partial class TrainerBase : Form
 	{
-		// Token: 0x0600000C RID: 12
 		[DllImport("user32.dll")]
 		public static extern bool RegisterHotKey(IntPtr hWnd, int id, int fsModifiers, int vlc);
 
-		// Token: 0x0600000D RID: 13 RVA: 0x00003D30 File Offset: 0x00001F30
 		public TrainerBase()
 		{
 			this.InitializeComponent();
@@ -59,7 +56,6 @@ namespace TrainerBase
 			bool F10Registered = TrainerBase.RegisterHotKey(base.Handle, UniqueHotkeyId10, 0, HotKeyCode10);
 		}
 
-		// Token: 0x0600000E RID: 14 RVA: 0x00003E84 File Offset: 0x00002084
 		protected override void WndProc(ref Message m)
 		{
 			bool flag = m.Msg == 786;
@@ -220,19 +216,15 @@ namespace TrainerBase
 			base.WndProc(ref m);
 		}
 
-		// Token: 0x0600000F RID: 15
 		[DllImport("user32.dll", SetLastError = true)]
 		private static extern int SetWindowLong(IntPtr hWnd, int nIndex, int dwNewLong);
 
-		// Token: 0x06000010 RID: 16
 		[DllImport("user32.dll", SetLastError = true)]
 		private static extern int GetWindowLong(IntPtr hWnd, int nIndex);
 
-		// Token: 0x06000011 RID: 17
 		[DllImport("user32.dll", SetLastError = true)]
 		internal static extern bool MoveWindow(IntPtr hWnd, int X, int Y, int nWidth, int nHeight, bool bRepaint);
 
-		// Token: 0x06000012 RID: 18 RVA: 0x00004278 File Offset: 0x00002478
 		public async void LoadSets()
 		{
 			await Task.Delay(0);
@@ -257,7 +249,6 @@ namespace TrainerBase
 			string[] array = null;
 		}
 
-		// Token: 0x06000013 RID: 19 RVA: 0x000042B4 File Offset: 0x000024B4
 		public async void LoadConfigs()
 		{
 			await Task.Delay(0);
@@ -282,12 +273,10 @@ namespace TrainerBase
 			string[] array = null;
 		}
 
-		// Token: 0x06000014 RID: 20 RVA: 0x000020F0 File Offset: 0x000002F0
 		private void ProcessLabel_Click(object sender, EventArgs e)
 		{
 		}
 
-		// Token: 0x06000015 RID: 21 RVA: 0x000042F0 File Offset: 0x000024F0
 		public static string GetHWID()
 		{
 			bool is64BitOperatingSystem = Environment.Is64BitOperatingSystem;
@@ -303,7 +292,6 @@ namespace TrainerBase
 			return registryKey.OpenSubKey("Software\\Microsoft\\Windows NT\\CurrentVersion").GetValue("ProductId").ToString();
 		}
 
-		// Token: 0x06000016 RID: 22 RVA: 0x0000434C File Offset: 0x0000254C
 		private void TrainerBase_Load(object sender, EventArgs e)
 		{
 			Directory.CreateDirectory("C:/Users/" + Environment.UserName + "/Desktop/growsense/resources");
@@ -371,7 +359,6 @@ namespace TrainerBase
 			}
 		}
 
-		// Token: 0x06000017 RID: 23 RVA: 0x00004608 File Offset: 0x00002808
 		private void panel28_Click(object sender, EventArgs e)
 		{
 			this.address.Show();
@@ -385,7 +372,6 @@ namespace TrainerBase
 			this.multiboxing.Hide();
 		}
 
-		// Token: 0x06000018 RID: 24 RVA: 0x00004684 File Offset: 0x00002884
 		private void pictureBox6_Click(object sender, EventArgs e)
 		{
 			this.address.Show();
