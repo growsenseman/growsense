@@ -1,9 +1,7 @@
 ﻿namespace TrainerBase
 {
-	// Token: 0x02000004 RID: 4
 	public partial class Form1 : global::System.Windows.Forms.Form
 	{
-		// Token: 0x0600000A RID: 10 RVA: 0x0000278C File Offset: 0x0000098C
 		protected override void Dispose(bool disposing)
 		{
 			bool flag = disposing && this.components != null;
@@ -14,7 +12,6 @@
 			base.Dispose(disposing);
 		}
 
-		// Token: 0x0600000B RID: 11 RVA: 0x000027C4 File Offset: 0x000009C4
 		private void InitializeComponent()
 		{
 			this.cbox20 = new global::System.Windows.Forms.NumericUpDown();
@@ -362,133 +359,90 @@
 			base.ResumeLayout(false);
 		}
 
-		// Token: 0x0400000A RID: 10
 		private global::System.ComponentModel.IContainer components = null;
 
-		// Token: 0x0400000B RID: 11
 		public global::System.Windows.Forms.NumericUpDown cbox20;
 
-		// Token: 0x0400000C RID: 12
 		public global::System.Windows.Forms.NumericUpDown cbox21;
 
-		// Token: 0x0400000D RID: 13
 		public global::System.Windows.Forms.NumericUpDown cbox22;
 
-		// Token: 0x0400000E RID: 14
 		public global::System.Windows.Forms.NumericUpDown cbox23;
 
-		// Token: 0x0400000F RID: 15
 		public global::System.Windows.Forms.NumericUpDown cbox27;
 
-		// Token: 0x04000010 RID: 16
 		public global::System.Windows.Forms.NumericUpDown cbox26;
 
-		// Token: 0x04000011 RID: 17
 		public global::System.Windows.Forms.NumericUpDown cbox25;
 
-		// Token: 0x04000012 RID: 18
 		public global::System.Windows.Forms.NumericUpDown cbox24;
 
-		// Token: 0x04000013 RID: 19
 		public global::System.Windows.Forms.NumericUpDown cbox31;
 
-		// Token: 0x04000014 RID: 20
 		public global::System.Windows.Forms.NumericUpDown cbox30;
 
-		// Token: 0x04000015 RID: 21
 		public global::System.Windows.Forms.NumericUpDown cbox29;
 
-		// Token: 0x04000016 RID: 22
 		public global::System.Windows.Forms.NumericUpDown cbox28;
 
-		// Token: 0x04000017 RID: 23
 		public global::System.Windows.Forms.NumericUpDown savebox2;
 
-		// Token: 0x04000018 RID: 24
 		public global::System.Windows.Forms.NumericUpDown rainbowtop;
 
-		// Token: 0x04000019 RID: 25
 		public global::System.Windows.Forms.NumericUpDown helpmsg;
 
-		// Token: 0x0400001A RID: 26
 		public global::System.Windows.Forms.NumericUpDown dragbox2;
 
-		// Token: 0x0400001B RID: 27
 		public global::System.Windows.Forms.NumericUpDown cbox7;
 
-		// Token: 0x0400001C RID: 28
 		public global::System.Windows.Forms.NumericUpDown cbox6;
 
-		// Token: 0x0400001D RID: 29
 		public global::System.Windows.Forms.NumericUpDown cbox4;
 
-		// Token: 0x0400001E RID: 30
 		public global::System.Windows.Forms.NumericUpDown cbox33;
 
-		// Token: 0x0400001F RID: 31
 		public global::System.Windows.Forms.NumericUpDown cbox32;
 
-		// Token: 0x04000020 RID: 32
 		public global::System.Windows.Forms.NumericUpDown numericUpDown13;
 
-		// Token: 0x04000021 RID: 33
 		public global::System.Windows.Forms.NumericUpDown numericUpDown14;
 
-		// Token: 0x04000022 RID: 34
 		public global::System.Windows.Forms.NumericUpDown numericUpDown15;
 
-		// Token: 0x04000023 RID: 35
 		public global::System.Windows.Forms.NumericUpDown numericUpDown25;
 
-		// Token: 0x04000024 RID: 36
 		public global::System.Windows.Forms.NumericUpDown numericUpDown26;
 
-		// Token: 0x04000025 RID: 37
 		public global::System.Windows.Forms.NumericUpDown numericUpDown27;
 
-		// Token: 0x04000026 RID: 38
 		public global::System.Windows.Forms.NumericUpDown numericUpDown28;
 
-		// Token: 0x04000027 RID: 39
 		public global::System.Windows.Forms.NumericUpDown numericUpDown29;
 
-		// Token: 0x04000028 RID: 40
 		public global::System.Windows.Forms.NumericUpDown numericUpDown30;
 
-		// Token: 0x04000029 RID: 41
 		public global::System.Windows.Forms.NumericUpDown numericUpDown31;
 
-		// Token: 0x0400002A RID: 42
 		public global::System.Windows.Forms.NumericUpDown numericUpDown32;
 
-		// Token: 0x0400002B RID: 43
 		public global::System.Windows.Forms.NumericUpDown numericUpDown33;
 
-		// Token: 0x0400002C RID: 44
 		public global::System.Windows.Forms.NumericUpDown numericUpDown34;
 
-		// Token: 0x0400002D RID: 45
 		public global::System.Windows.Forms.NumericUpDown cbox1;
 
-		// Token: 0x0400002E RID: 46
 		public global::System.Windows.Forms.NumericUpDown cbox8;
 
-		// Token: 0x0400002F RID: 47
 		public global::System.Windows.Forms.NumericUpDown cbox3;
 
-		// Token: 0x04000030 RID: 48
 		public global::System.Windows.Forms.NumericUpDown cbox5;
 
-		// Token: 0x04000031 RID: 49
 		public global::System.Windows.Forms.NumericUpDown cbox2;
 
-		// Token: 0x04000032 RID: 50
 		public global::System.Windows.Forms.NumericUpDown cbox44;
 
-		// Token: 0x04000033 RID: 51
 		public global::System.Windows.Forms.NumericUpDown cbox15;
 
-		// Token: 0x04000034 RID: 52
 		public global::System.Windows.Forms.NumericUpDown topmost;
 	}
 }
