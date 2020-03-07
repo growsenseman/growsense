@@ -1,9 +1,7 @@
 ﻿namespace TrainerBase
 {
-	// Token: 0x02000005 RID: 5
 	public partial class TrainerBase : global::System.Windows.Forms.Form
 	{
-		// Token: 0x060000A1 RID: 161 RVA: 0x00007988 File Offset: 0x00005B88
 		protected override void Dispose(bool disposing)
 		{
 			bool flag = disposing && this.components != null;
@@ -14,7 +12,6 @@
 			base.Dispose(disposing);
 		}
 
-		// Token: 0x060000A2 RID: 162 RVA: 0x000079C0 File Offset: 0x00005BC0
 		private void InitializeComponent()
 		{
 			this.components = new global::System.ComponentModel.Container();
@@ -3713,37 +3710,26 @@
 			base.PerformLayout();
 		}
 
-		// Token: 0x04000040 RID: 64
 		private global::System.ComponentModel.IContainer components = null;
 
-		// Token: 0x04000041 RID: 65
 		private global::System.Windows.Forms.CheckBox checkHotkeyRespond;
 
-		// Token: 0x04000042 RID: 66
 		private global::Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
 
-		// Token: 0x04000043 RID: 67
 		private global::System.Windows.Forms.Label ProcessLabel;
 
-		// Token: 0x04000044 RID: 68
 		private global::System.Windows.Forms.Panel panel3;
 
-		// Token: 0x04000045 RID: 69
 		private global::System.Windows.Forms.Panel panel12;
 
-		// Token: 0x04000046 RID: 70
 		private global::System.Windows.Forms.Panel panel11;
 
-		// Token: 0x04000047 RID: 71
 		private global::System.Windows.Forms.Panel panel10;
 
-		// Token: 0x04000048 RID: 72
 		private global::System.Windows.Forms.Panel panel9;
 
-		// Token: 0x04000049 RID: 73
 		private global::System.Windows.Forms.Panel panel8;
 
-		// Token: 0x0400004A RID: 74
 		private global::System.Windows.Forms.Panel panel5;
 
 		// Token: 0x0400004B RID: 75
