@@ -1,9 +1,7 @@
 ﻿namespace TrainerBase
 {
-	// Token: 0x02000002 RID: 2
 	public partial class dikdkdkd : global::System.Windows.Forms.Form
 	{
-		// Token: 0x06000006 RID: 6 RVA: 0x00002100 File Offset: 0x00000300
 		protected override void Dispose(bool disposing)
 		{
 			bool flag = disposing && this.components != null;
@@ -14,7 +12,6 @@
 			base.Dispose(disposing);
 		}
 
-		// Token: 0x06000007 RID: 7 RVA: 0x00002138 File Offset: 0x00000338
 		private void InitializeComponent()
 		{
 			this.components = new global::System.ComponentModel.Container();
@@ -111,31 +108,22 @@
 			base.PerformLayout();
 		}
 
-		// Token: 0x04000001 RID: 1
 		private global::System.ComponentModel.IContainer components = null;
 
-		// Token: 0x04000002 RID: 2
 		private global::MetroSuite.MetroButton metroButton16;
 
-		// Token: 0x04000003 RID: 3
 		private global::Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
 
-		// Token: 0x04000004 RID: 4
 		private global::Bunifu.Framework.UI.BunifuDragControl bunifuDragControl2;
 
-		// Token: 0x04000005 RID: 5
 		private global::System.Windows.Forms.Label label1;
 
-		// Token: 0x04000006 RID: 6
 		private global::System.Windows.Forms.DateTimePicker dateTimePicker1;
 
-		// Token: 0x04000007 RID: 7
 		private global::Bunifu.Framework.UI.BunifuDragControl bunifuDragControl3;
 
-		// Token: 0x04000008 RID: 8
 		private global::System.Windows.Forms.TextBox txtPassword;
 
-		// Token: 0x04000009 RID: 9
 		private global::System.Windows.Forms.Label label2;
 	}
 }
